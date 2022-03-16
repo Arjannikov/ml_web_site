@@ -2,7 +2,7 @@
   "name": "ml_web_site",
   "version": "1.0.0",
   "description": "Web site for all the different ML/AI interfaces.",
-  "main": "index.js",
+  "main": "index.html",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/k10xventures-mywellabee/mywellabee-ml_web_site.git"
