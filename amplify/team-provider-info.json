@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-mlwebsite-dev-194445-authRole",
+      "UnauthRoleArn": "arn:aws:iam::273369155819:role/amplify-mlwebsite-dev-194445-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::273369155819:role/amplify-mlwebsite-dev-194445-authRole",
+      "Region": "ap-southeast-2",
+      "DeploymentBucketName": "amplify-mlwebsite-dev-194445-deployment",
+      "UnauthRoleName": "amplify-mlwebsite-dev-194445-unauthRole",
+      "StackName": "amplify-mlwebsite-dev-194445",
+      "StackId": "arn:aws:cloudformation:ap-southeast-2:273369155819:stack/amplify-mlwebsite-dev-194445/ab294380-a4ca-11ec-ac5e-025f66b71290",
+      "AmplifyAppId": "dcpu201lxaqeq"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "dcpu201lxaqeq",
+          "type": "cicd"
+        }
+      },
+      "auth": {
+        "mlwebsite1e47fe26": {}
+      }
+    }
+  }
+}

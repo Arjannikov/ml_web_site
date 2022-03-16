@@ -1,0 +1,12 @@
+{
+  "resourceName": "mlstore",
+  "policyUUID": "99d17af3",
+  "bucketName": "mwb-product-matching",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

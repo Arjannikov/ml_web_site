@@ -1,0 +1,29 @@
+{
+  "name": "ml_web_site",
+  "version": "1.0.0",
+  "description": "Web site for all the different ML/AI interfaces.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k10xventures-mywellabee/mywellabee-ml_web_site.git"
+  },
+  "author": "Tom Arjannikov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/k10xventures-mywellabee/mywellabee-ml_web_site/issues"
+  },
+  "homepage": "https://github.com/k10xventures-mywellabee/mywellabee-ml_web_site#readme",
+  "dependencies": {
+    "aws-amplify": "latest",
+    "css-loader": "^6.7.1",
+    "script-loader": "^0.7.2",
+    "style-loader": "^3.3.1",
+    "whatwg-url": "^11.0.0"
+  },
+  "devDependencies": {
+    "esbuild-loader": "^2.18.0"
+  },
+  "scripts": {
+    "build": "esbuild src/app.js --bundle --minify --define:global=window --outfile=dist/app.js"
+  }
+}
